@@ -1,0 +1,21 @@
+# Build artifacts
+firmware/.pio/
+firmware/build/
+firmware/.vscode/
+
+# PlatformIO / Arduino
+*.o
+*.elf
+*.bin
+*.hex
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+*.swp
+
+# 敏感信息（物联卡、推送 token 等）
+*.secret
+.env
